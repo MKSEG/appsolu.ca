@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Appsolu</title>
+<meta name="description" content="Appsolu : des apps simples et respectueuses de votre vie privée. / Simple apps that respect your privacy.">
+<link rel="icon" href="/favicon.png">
+<style>
+  :root { --texte: #1d1d1f; --secondaire: #6e6e73; --fond: #ffffff; --carte: #f5f5f7; --accent: #0a66d6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --texte: #f5f5f7; --secondaire: #a1a1a6; --fond: #000000; --carte: #1c1c1e; --accent: #4c9bff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fond); color: var(--texte);
+         font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 36px; line-height: 1.15; margin: 0 0 8px; }
+  .accroche { color: var(--secondaire); margin: 0 0 32px; }
+  a { color: var(--accent); }
+  .app { display: flex; align-items: center; gap: 16px; background: var(--carte); border-radius: 16px;
+         padding: 16px 20px; text-decoration: none; color: inherit; }
+  .app img { width: 64px; height: 64px; border-radius: 14px; flex: none; }
+  .app strong { display: block; font-size: 19px; }
+  .app span { color: var(--secondaire); }
+  footer { margin-top: 48px; color: var(--secondaire); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Appsolu</h1>
+<p class="accroche">Des apps simples et respectueuses de votre vie privée.<br><span lang="en">Simple apps that respect your privacy.</span></p>
+
+<a class="app" href="/pairlife/">
+  <img src="/pairlife/icone.png" alt="">
+  <div>
+    <strong>PairLife</strong>
+    <span>L'app d'argent pour les couples · <span lang="en">The money app for couples</span></span>
+  </div>
+</a>
+
+<footer><a href="mailto:support@appsolu.ca">support@appsolu.ca</a></footer>
+</main>
+</body>
+</html>
