@@ -6,6 +6,18 @@
 <title>Appsolu</title>
 <meta name="description" content="Appsolu : des apps simples et respectueuses de votre vie privée. / Simple apps that respect your privacy.">
 <link rel="icon" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Appsolu">
+<meta property="og:title" content="Appsolu">
+<meta property="og:description" content="Des apps simples et respectueuses de votre vie privée.">
+<meta property="og:url" content="https://appsolu.ca/">
+<meta property="og:image" content="https://appsolu.ca/pairlife/apercu.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="fr_CA">
+<meta property="og:locale:alternate" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="apple-itunes-app" content="app-id=6819706307">
 <style>
   :root { --texte: #1d1d1f; --secondaire: #6e6e73; --fond: #ffffff; --carte: #f5f5f7; --accent: #0a66d6; }
   @media (prefers-color-scheme: dark) {
@@ -23,6 +35,11 @@
   .app img { width: 64px; height: 64px; border-radius: 14px; flex: none; }
   .app strong { display: block; font-size: 19px; }
   .app span { color: var(--secondaire); }
+  .badge { display: inline-block; padding: 12px; margin: -12px 0 0 -12px; line-height: 0; }
+  .badge img { height: 48px; width: auto; }
+  .requis { color: var(--secondaire); font-size: 15px; margin: 0; }
+  .magasins { display: flex; flex-wrap: wrap; gap: 0 24px; margin: 28px 0 0 4px; }
+  .magasins > div { margin-bottom: 8px; }
   footer { margin-top: 48px; color: var(--secondaire); font-size: 15px; }
 </style>
 </head>
@@ -38,6 +55,13 @@
     <span>L'app d'argent pour les couples · <span lang="en">The money app for couples</span></span>
   </div>
 </a>
+
+<div class="magasins">
+<div lang="fr"><a class="badge" href="https://apps.apple.com/ca/app/pairlife/id6819706307"><picture><source srcset="/badges/app-store-fr-blanc.svg" media="(prefers-color-scheme: dark)"><img src="/badges/app-store-fr-noir.svg" alt="Télécharger PairLife dans l'App Store" height="48"></picture></a>
+<p class="requis">Gratuite. iOS 26, iPadOS 26 ou macOS 26 requis.</p></div>
+<div lang="en"><a class="badge" href="https://apps.apple.com/ca/app/pairlife/id6819706307"><picture><source srcset="/badges/app-store-en-blanc.svg" media="(prefers-color-scheme: dark)"><img src="/badges/app-store-en-noir.svg" alt="Download PairLife on the App Store" height="48"></picture></a>
+<p class="requis">Free. Requires iOS 26, iPadOS 26 or macOS 26.</p></div>
+</div>
 
 <footer><a href="mailto:support@appsolu.ca">support@appsolu.ca</a></footer>
 </main>
